@@ -1,0 +1,183 @@
+---
+format: 
+  pdf: 
+    documentclass: article
+    geometry:
+      - top=10mm
+      - left=15mm
+      - right=15mm
+      - bottom=5mm
+      - heightrounded
+    fontfamily: libertinus
+    colorlinks: true
+    fontsize: '16'
+    include-in-header: 
+      text: |
+        \usepackage{multicol}
+        \usepackage{lipsum}
+        \usepackage{hyperref}
+        \pagestyle{empty}
+        \setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original values
+        \setlength{\columnsep}{3em}
+---
+<!-- TITLE -->
+\begin{huge}\begin{center}{\bf DAVID NIELD}\end{center}\end{huge}
+
+<!-- CONTACT INFO -->
+\begin{center}nield.dr@gmail.com ∙ \href{https://dnield.com}{Website} ∙ \href{https://github.com/davidnield}{Github} ∙ \href{https://www.linkedin.com/in/david-nield/}{LinkedIn}
+\end{center}
+\vspace{15pt}
+
+<!-- EDUCATION: 1ST BULLET -->
+\begin{large}
+  {\bf EDUCATION}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of California, Berkeley}\end{flushleft}
+    \begin{flushright}Berkeley, CA\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}M.A., Political Science \end{flushleft}
+  \end{multicols}
+  \vspace{-0.25cm}
+  \textit{Thesis: Measuring inter-donor influence in FEC data (1979-2014)}
+\end{large}
+
+\vspace{0.2cm}
+
+<!-- EDUCATION: 2ND BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf The Ohio State University}\end{flushleft}
+    \begin{flushright}Columbus, OH\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}B.S., Political Science; Minor in Statistics\end{flushleft}
+  \end{multicols}
+  \vspace{-0.25cm}
+  \textit{Thesis: The Misperceiving Voter}
+\end{large}
+
+\vspace{3pt}
+
+<!-- SKILLS -->
+\begin{large}{\bf SKILLS}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{0cm}
+**Languages and Tools** - R, SQL, Git, Bash, Qualtrics    
+**Technical Skills** - Experimental design, observational causal inference, time series forecasting, supervised machine learning    
+**Business Skills** - Public speaking, writing and presenting to non-technical business audiences, breaking down open-ended business problems into concrete next steps and solutions
+
+\vspace{3pt}
+
+<!-- EXPERIENCE : 1ST BULLET-->
+\begin{large}{\bf EXPERIENCE}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf Callisto Media, Inc.}\end{flushleft}
+    \begin{flushright}July 2019-May 2023\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Data Scientist}\end{flushleft}
+    \begin{flushright}Oakland, CA\end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+* Developed A/B tests and Bayesian optimization algorithms for online advertising
+* Built time series forecasting models for inventory planning and demand forecasting
+* Used word embeddings to cluster customer search terms into topics useful for identifying new product opportunities
+* Interim Data Science Manager for 5 person data science team during manager's parental leave and sabbatical
+* Company acquired by Penguin Random House in May 2023
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 2ND BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf Stanford University}\end{flushleft}
+    \begin{flushright}Mar 2019-Jun 2019\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Research Assistant}\end
+    {flushleft}\begin{flushright}Stanford, CA\end
+    {flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Analyzed time-series survey data for Dr. Hakeem Jefferson for his project \textit{The Curious Case of Black Conservatives: Assessing the Validity of the Liberal-Conservative Scale among Black Americans}, published in \textit{Public Opinion Quarterly} in 2023 and cited 22 times as of 05/24/2023 
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 3RD BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of California, Berkeley}\end{flushleft}
+    \begin{flushright}Aug 2018-May 2019\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Graduate Student Instructor}\end{flushleft}
+    \begin{flushright}Berkeley, CA\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Courses taught: Crime and Democracy (56 students); Political Psychology and Involvement (53 students)
+* Created and presented weekly lectures, taught the interpretation of statistical tables from assigned scientific article readings to students with little or no statistical training
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 4TH BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf FiveThirtyEight}\end{flushleft}
+    \begin{flushright}Jun 2016-Aug 2016\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Politics Intern}\end{flushleft}
+    \begin{flushright}New York, NY\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Wrote and produced data visualizations for three articles covering the 2016 election for a large popular audience (over 10 million unique monthly visitors during 2016)
+* Analyzed data for three major journalistic projects spanned survey data, CDC data, and Twitter data
+
+\vspace{7pt}
+
+<!-- PERSONAL PROJECTS : 1ST BULLET -->
+\begin{large}
+{\bf PERSONAL PROJECTS}
+  \vspace{3pt}
+  \hrule
+    \begin{flushleft}\textit{Measuring inter-donor influence in FEC data (1979-2014)}\end{flushleft}
+  \vspace{-0.17cm}
+\end{large}
+* Using a dataset spanning over thirty years and over 130 million political contributions, I analyzed the influence of large donor and PAC contributions on the contribution behavior of small individual donors
+
+\vspace{1pt}
+
+<!-- PERSONAL PROJECTS : 2ND BULLET -->
+\begin{large}
+    \begin{flushleft}\textit{The Misperceiving Voter}\end{flushleft}
+  \vspace{-0.17cm}
+\end{large}
+* Designed, conducted, and analyzed an original survey on an online sample measuring American's belief in types of political misinformation and the relationship between belief in misinformation, political tolerance, and political participation
+
+\vspace{1pt}
+
+<!-- PERSONAL PROJECTS : 3RD BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{"Small world" dynamics in focused networks}\end{flushleft}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+* Using 10,000s of simulated networks, I studied how different forms of social organization contribute to the "small world" phenomenon (aka "six degress of separation")
