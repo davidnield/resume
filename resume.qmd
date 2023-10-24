@@ -28,6 +28,63 @@ format:
 \end{center}
 \vspace{15pt}
 
+<!-- EXPERIENCE : 1ST BULLET-->
+\begin{large}{\bf EXPERIENCE}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf Walmart Connect}\end{flushleft}
+    \begin{flushright}Oct 2023 - Current\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Senior Data Scientist}\end{flushleft}
+    \begin{flushright}Los Angeles, CA\end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+* First (and currently only) data scientist on the Sales Strategy Business Intelligence team
+* Collaborate cross-organizationally on advertising sales forecasting models used for revenue planning
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 2ND BULLET-->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf Penguin Random House}\end{flushleft}
+    \begin{flushright}May 2023 - Aug 2023\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Data Scientist (Contract)}\end{flushleft}
+    \begin{flushright}Oakland, CA\end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+* Three month contract to aid in transition of Callisto data systems and models to Penguin Random House's infrastructure
+* Developed and ran an A/B test testing relative performance between the advertising optimization system I developed at Callisto to the system used at Penguin Random House
+
+<!-- EXPERIENCE : 3RD BULLET-->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf Callisto Media, Inc.}\end{flushleft}
+    \begin{flushright}July 2019 - May 2023\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Data Scientist}\end{flushleft}
+    \begin{flushright}Oakland, CA\end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+* Developed A/B tests and Bayesian optimization algorithms for used for online advertising optimization
+* Built time series forecasting models for used for demand forecasting and inventory planning
+* Used word embeddings to cluster customer search terms into topics useful for identifying new product opportunities
+* Interim Data Science Manager for 5 person data science team during manager's parental leave and sabbatical
+* Company acquired by Penguin Random House in May 2023
+
+\vspace{7pt}
+
 <!-- EDUCATION: 1ST BULLET -->
 \begin{large}
   {\bf EDUCATION}
@@ -40,6 +97,7 @@ format:
   \vspace{-0.17cm}
   \begin{multicols}{2}
     \begin{flushleft}M.A., Political Science \end{flushleft}
+    \begin{flushright}May 2019\end{flushright}
   \end{multicols}
   \vspace{-0.25cm}
   \textit{Thesis: Measuring inter-donor influence in FEC data (1979-2014)}
@@ -56,6 +114,7 @@ format:
   \vspace{-0.17cm}
   \begin{multicols}{2}
     \begin{flushleft}B.S., Political Science; Minor in Statistics\end{flushleft}
+    \begin{flushright}May 2017\end{flushright}
   \end{multicols}
   \vspace{-0.25cm}
   \textit{Thesis: The Misperceiving Voter}
@@ -74,83 +133,6 @@ format:
 **Business Skills** - Public speaking, writing and presenting to non-technical business audiences, breaking down open-ended business problems into concrete next steps and solutions
 
 \vspace{3pt}
-
-<!-- EXPERIENCE : 1ST BULLET-->
-\begin{large}{\bf EXPERIENCE}
-  \vspace{3pt}
-  \hrule
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf Callisto Media, Inc.}\end{flushleft}
-    \begin{flushright}July 2019-May 2023\end{flushright}
-  \end{multicols}
-  \vspace{-0.17cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Data Scientist}\end{flushleft}
-    \begin{flushright}Oakland, CA\end{flushright}\end
-  {multicols}
-\end{large}
-\vspace{-0.16cm}
-* Developed A/B tests and Bayesian optimization algorithms for online advertising
-* Built time series forecasting models for inventory planning and demand forecasting
-* Used word embeddings to cluster customer search terms into topics useful for identifying new product opportunities
-* Interim Data Science Manager for 5 person data science team during manager's parental leave and sabbatical
-* Company acquired by Penguin Random House in May 2023
-
-\vspace{7pt}
-
-<!-- EXPERIENCE : 2ND BULLET -->
-\begin{large}
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf Stanford University}\end{flushleft}
-    \begin{flushright}Mar 2019-Jun 2019\end{flushright}
-  \end{multicols}
-  \vspace{-0.17cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Research Assistant}\end
-    {flushleft}\begin{flushright}Stanford, CA\end
-    {flushright}
-  \end{multicols}
-\end{large}
-\vspace{-0.16cm}
-* Analyzed time-series survey data for Dr. Hakeem Jefferson for his project \textit{The Curious Case of Black Conservatives: Assessing the Validity of the Liberal-Conservative Scale among Black Americans}, published in \textit{Public Opinion Quarterly} in 2023 and cited 22 times as of 05/24/2023 
-
-\vspace{7pt}
-
-<!-- EXPERIENCE : 3RD BULLET -->
-\begin{large}
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf University of California, Berkeley}\end{flushleft}
-    \begin{flushright}Aug 2018-May 2019\end{flushright}
-  \end{multicols}
-  \vspace{-0.17cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Graduate Student Instructor}\end{flushleft}
-    \begin{flushright}Berkeley, CA\end{flushright}
-  \end{multicols}
-\end{large}
-\vspace{-0.16cm}
-* Courses taught: Crime and Democracy (56 students); Political Psychology and Involvement (53 students)
-* Created and presented weekly lectures, taught the interpretation of statistical tables from assigned scientific article readings to students with little or no statistical training
-
-\vspace{7pt}
-
-<!-- EXPERIENCE : 4TH BULLET -->
-\begin{large}
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf FiveThirtyEight}\end{flushleft}
-    \begin{flushright}Jun 2016-Aug 2016\end{flushright}
-  \end{multicols}
-  \vspace{-0.17cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Politics Intern}\end{flushleft}
-    \begin{flushright}New York, NY\end{flushright}
-  \end{multicols}
-\end{large}
-\vspace{-0.16cm}
-* Wrote and produced data visualizations for three articles covering the 2016 election for a large popular audience (over 10 million unique monthly visitors during 2016)
-* Analyzed data for three major journalistic projects spanned survey data, CDC data, and Twitter data
-
-\vspace{7pt}
 
 <!-- PERSONAL PROJECTS : 1ST BULLET -->
 \begin{large}
