@@ -26,7 +26,17 @@ format:
 <!-- CONTACT INFO -->
 \begin{center}nield.dr@gmail.com ∙ \href{https://dnield.com}{Website} ∙ \href{https://github.com/davidnield}{Github} ∙ \href{https://www.linkedin.com/in/david-nield/}{LinkedIn}
 \end{center}
-\vspace{15pt}
+\vspace{7pt}
+
+<!-- SKILLS -->
+\begin{large}{\bf SKILLS}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{0cm}
+**Languages and Tools** - R (Primary), SQL (Primary), Python (Secondary), Git   
+**Technical Skills** - Experimental design (A/B tests, sequential Bayesian optimization), observational causal inference (difference-in-differences, regression discontinuity), time series forecasting (ARIMA, ETS, and deep learning foundation models), supervised machine learning (gradient boosting, random forest, penalized linear and logistic regression), database architecture    
+**Business Skills** - Public speaking, writing and presenting to non-technical business audiences, breaking down open-ended business requests into concrete next steps and solutions, leading cross-functional teams on technical projects, data governance
 
 <!-- EXPERIENCE : 1ST BULLET-->
 \begin{large}{\bf EXPERIENCE}
@@ -34,56 +44,137 @@ format:
   \hrule
   \begin{multicols}{2}
     \begin{flushleft}{\bf Walmart Connect}\end{flushleft}
-    \begin{flushright}Oct 2023 - Current\end{flushright}
+    \begin{flushright}Los Angeles, CA\end{flushright}
   \end{multicols}
   \vspace{-0.17cm}
   \begin{multicols}{2}
+    \begin{flushleft}\textit{Staff Data Scientist}\end{flushleft}
+    \begin{flushright}Oct 2025 - Current\end{flushright}\end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
     \begin{flushleft}\textit{Senior Data Scientist}\end{flushleft}
-    \begin{flushright}Los Angeles, CA\end{flushright}\end
+    \begin{flushright}Oct 2023 - Oct 2025\end{flushright}\end
   {multicols}
 \end{large}
 \vspace{-0.16cm}
-* First (and currently only) data scientist on the Sales Strategy Business Intelligence team
-* Collaborate cross-organizationally on advertising sales forecasting models used for revenue planning
+* First data scientist on Walmart's Advertising Sales team, working with and reporting directly to the Sales executive team.
+* Drove the creation of a formalized data governance structure across a 65-person Sales Analytics organization with assigned business data stewards defining -- and technical data stewards implementing -- single source of truth business definitions and metrics, resulting in less time investigating causes of metric discrepancies.
+* Co-architect and lead developer of a semantic data model following star schema and medallion architecture models, resulting in less time and errors maintaining the duplicative implementations across model/dashboard/report-specific data pipelines.
+* Modernized SQL development practices by training and mentoring teammates on the use of Git for version control, resulting in greater ability to collaborate concurrently on scripts maintaining data pipelines and conduct peer code review.
+* Project lead for a cross-functional team of data scientists, product managers, and data engineers for the Sales revenue forecast model used across the organization.
+* Developed and maintain the model used for setting Sales quotas/incentive planning for over 300 sales managers, improved accuracy by 20% and reduced variance by 50% over prior sales quota model.
+* Developed the company's first advertiser churn model, reducing churn-mitigation action from Sales manager from 30 days since last ad spend to 11 days.
+* Developed and maintain the data pipeline for the company's first advertiser "life stage" segmentation, driving faster and better identification of advertisers' individual needs by Sales managers.
 
-\vspace{7pt}
+\vspace{5pt}
 
 <!-- EXPERIENCE : 2ND BULLET-->
 \begin{large}
   \begin{multicols}{2}
     \begin{flushleft}{\bf Penguin Random House}\end{flushleft}
-    \begin{flushright}May 2023 - Aug 2023\end{flushright}
+    \begin{flushright}Oakland, CA\end{flushright}
   \end{multicols}
   \vspace{-0.17cm}
   \begin{multicols}{2}
     \begin{flushleft}\textit{Data Scientist (Contract)}\end{flushleft}
-    \begin{flushright}Oakland, CA\end{flushright}\end
+    \begin{flushright}May 2023 - Aug 2023\end{flushright}\end
   {multicols}
 \end{large}
 \vspace{-0.16cm}
-* Three month contract to aid in transition of Callisto data systems and models to Penguin Random House's infrastructure
-* Developed and ran an A/B test testing relative performance between the advertising optimization system I developed at Callisto to the system used at Penguin Random House
+* Three month contract to aid in transition of Callisto data systems and models to Penguin Random House's infrastructure.
+* Developed and ran an A/B test testing relative performance between the advertising campaign optimization algorithm I developed at Callisto to the system used at Penguin Random House.
+
+\vspace{5pt}
 
 <!-- EXPERIENCE : 3RD BULLET-->
 \begin{large}
   \begin{multicols}{2}
     \begin{flushleft}{\bf Callisto Media, Inc.}\end{flushleft}
-    \begin{flushright}July 2019 - May 2023\end{flushright}
+    \begin{flushright}Oakland, CA\end{flushright}
   \end{multicols}
-  \vspace{-0.17cm}
+    \vspace{-0.17cm}
   \begin{multicols}{2}
     \begin{flushleft}\textit{Data Scientist}\end{flushleft}
-    \begin{flushright}Oakland, CA\end{flushright}\end
+    \begin{flushright}May 2022 - May 2023\end{flushright}\end
+  {multicols}
+    \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Associate Data Scientist}\end{flushleft}
+    \begin{flushright}July 2021 - May 2022\end{flushright}\end
+  {multicols}
+    \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Senior Data Analyst}\end{flushleft}
+    \begin{flushright}September 2020 - June 2021\end{flushright}\end
+  {multicols}
+    \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Data Analyst}\end{flushleft}
+    \begin{flushright}July 2019 - August 2020\end{flushright}\end
   {multicols}
 \end{large}
 \vspace{-0.16cm}
-* Developed A/B tests and Bayesian optimization algorithms for used for online advertising optimization
-* Built time series forecasting models for used for demand forecasting and inventory planning
-* Used word embeddings to cluster customer search terms into topics useful for identifying new product opportunities
-* Interim Data Science Manager for 5 person data science team during manager's parental leave and sabbatical
-* Company acquired by Penguin Random House in May 2023
+* Data scientist #2 and employee ~#60 at a fast-growing start-up: growing from 60 employees in 2019 to 500 employees in 2022 prior to COVID contraction and later acquisition of the company by Penguin Random House in May 2023.
+* Used word embeddings to cluster customer search terms into the topics used for identifying new product opportunities.
+* Developed and maintained the business-critical "topic demand" prediction model, used as the first step of every book published by the company.
+* Developed A/B tests and Bayesian optimization algorithms used for online advertising campaign optimization.
+* Built time series forecasting models used for demand forecasting and inventory planning.
+* Interim Data Science Manager for 5-person data science team during manager's 5-month parental leave and sabbatical.
 
-\vspace{7pt}
+<!-- \vspace{7pt} -->
+
+<!-- EXPERIENCE : 4th BULLET-->
+<!-- \begin{large} -->
+<!--   \begin{multicols}{2} -->
+<!--     \begin{flushleft}{\bf Stanford University}\end{flushleft} -->
+<!--     \begin{flushright}Stanford, CA\end{flushright} -->
+<!--   \end{multicols} -->
+<!--   \vspace{-0.17cm} -->
+<!--   \begin{multicols}{2} -->
+<!--     \begin{flushleft}\textit{Graduate Research Assistant}\end{flushleft} -->
+<!--     \begin{flushright}March 2019 - June 2019\end{flushright}\end -->
+<!--   {multicols} -->
+<!-- \end{large} -->
+<!-- \vspace{-0.16cm} -->
+<!-- * Estimated linear regression models, produced the statistical tables, and used generalized additive models to produce the data visualizations for Dr. Hakeem Jefferson for his project studying partisan identity and political ideology among African Americans (published Fall 2024 in a leading Public Opinion research journal as \textit{The Curious Case of Black “Conservatives”: Assessing the Validity of the Liberal-Conservative Scale among Black Americans}) -->
+
+<!-- \vspace{7pt} -->
+
+<!-- EXPERIENCE : 5th BULLET-->
+<!-- \begin{large} -->
+<!--   \begin{multicols}{2} -->
+<!--     \begin{flushleft}{\bf University of California, Berkeley}\end{flushleft} -->
+<!--     \begin{flushright}Berkeley, CA\end{flushright} -->
+<!--   \end{multicols} -->
+<!--   \vspace{-0.17cm} -->
+<!--   \begin{multicols}{2} -->
+<!--     \begin{flushleft}\textit{Graduate Student Instructor}\end{flushleft} -->
+<!--     \begin{flushright}August 2018 - May 2019\end{flushright}\end -->
+<!--   {multicols} -->
+<!-- \end{large} -->
+<!-- \vspace{-0.16cm} -->
+<!-- * Taught two courses: \textit{Crime and Democracy} (56 students) and \textit{Political Psychology and Involvement} (53 students) -->
+<!-- * Graded coursework and created and presented weekly lectures, including the interpretation of statistical tables from assigned scientific article readings to students with little-to-no statistical training  -->
+
+<!-- \vspace{7pt} -->
+
+<!-- EXPERIENCE : 6th BULLET-->
+<!-- \begin{large} -->
+<!--   \begin{multicols}{2} -->
+<!--     \begin{flushleft}{\bf FiveThirtyEight}\end{flushleft} -->
+<!--     \begin{flushright}New York, NY\end{flushright} -->
+<!--   \end{multicols} -->
+<!--   \vspace{-0.17cm} -->
+<!--   \begin{multicols}{2} -->
+<!--     \begin{flushleft}\textit{Politics Intern}\end{flushleft} -->
+<!--     \begin{flushright}June 2016 - August 2016\end{flushright}\end -->
+<!--   {multicols} -->
+<!-- \end{large} -->
+<!-- \vspace{-0.16cm} -->
+<!-- * Lead reporter and produced data visualizations for three articles covering the 2016 election at the largest (by audience) political data journalism website in 2016 -->
+<!-- * Analyzed data for three major site projects spanning survey data, CDC data, and Twitter data  -->
+
+<!-- \vspace{7pt} -->
 
 <!-- EDUCATION: 1ST BULLET -->
 \begin{large}
@@ -99,11 +190,9 @@ format:
     \begin{flushleft}M.A., Political Science \end{flushleft}
     \begin{flushright}May 2019\end{flushright}
   \end{multicols}
-  \vspace{-0.25cm}
-  \textit{Thesis: Measuring inter-donor influence in FEC data (1979-2014)}
 \end{large}
 
-\vspace{0.2cm}
+<!-- \vspace{0.2cm} -->
 
 <!-- EDUCATION: 2ND BULLET -->
 \begin{large}
@@ -116,50 +205,45 @@ format:
     \begin{flushleft}B.S., Political Science; Minor in Statistics\end{flushleft}
     \begin{flushright}May 2017\end{flushright}
   \end{multicols}
-  \vspace{-0.25cm}
-  \textit{Thesis: The Misperceiving Voter}
 \end{large}
 
-\vspace{3pt}
-
-<!-- SKILLS -->
-\begin{large}{\bf SKILLS}
-  \vspace{3pt}
-  \hrule
-\end{large}
-\vspace{0cm}
-**Languages and Tools** - R, SQL, Git, Bash, Qualtrics    
-**Technical Skills** - Experimental design, observational causal inference, time series forecasting, supervised machine learning    
-**Business Skills** - Public speaking, writing and presenting to non-technical business audiences, breaking down open-ended business problems into concrete next steps and solutions
-
-\vspace{3pt}
+<!-- \vspace{3pt} -->
 
 <!-- PERSONAL PROJECTS : 1ST BULLET -->
-\begin{large}
-{\bf PERSONAL PROJECTS}
-  \vspace{3pt}
-  \hrule
-    \begin{flushleft}\textit{Measuring inter-donor influence in FEC data (1979-2014)}\end{flushleft}
-  \vspace{-0.17cm}
-\end{large}
-* Using a dataset spanning over thirty years and over 130 million political contributions, I analyzed the influence of large donor and PAC contributions on the contribution behavior of small individual donors
+<!-- \begin{large} -->
+<!-- {\bf PERSONAL PROJECTS} -->
+<!--   \vspace{3pt} -->
+<!--   \hrule -->
+<!--     \begin{flushleft}\textit{Measuring inter-donor influence in FEC data (1979-2014)}\end{flushleft} -->
+<!--   \vspace{-0.17cm} -->
+<!-- \end{large} -->
+<!-- * Using a dataset spanning over thirty years and over 130 million political contributions, I estimated the influence of large donor and PAC contributions on the contribution behavior of small individual donors -->
 
-\vspace{1pt}
+<!-- \vspace{1pt} -->
 
 <!-- PERSONAL PROJECTS : 2ND BULLET -->
-\begin{large}
-    \begin{flushleft}\textit{The Misperceiving Voter}\end{flushleft}
-  \vspace{-0.17cm}
-\end{large}
-* Designed, conducted, and analyzed an original survey on an online sample measuring American's belief in types of political misinformation and the relationship between belief in misinformation, political tolerance, and political participation
+<!-- \begin{large} -->
+<!--     \begin{flushleft}\textit{The Misperceiving Voter}\end{flushleft} -->
+<!--   \vspace{-0.17cm} -->
+<!-- \end{large} -->
+<!-- * Designed, conducted, and analyzed an original survey on an online sample measuring American's belief in types of political misinformation and the relationship between belief in misinformation, political tolerance, and political participation -->
 
-\vspace{1pt}
+<!-- \vspace{1pt} -->
 
 <!-- PERSONAL PROJECTS : 3RD BULLET -->
-\begin{large}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{"Small world" dynamics in focused networks}\end{flushleft}
-  \end{multicols}
-  \vspace{-0.17cm}
-\end{large}
-* Using 10,000s of simulated networks, I studied how different forms of social organization contribute to the "small world" phenomenon (aka "six degress of separation")
+<!-- \begin{large} -->
+<!--   \begin{multicols}{2} -->
+<!--     \begin{flushleft}\textit{"Small world" dynamics in focused networks}\end{flushleft} -->
+<!--   \end{multicols} -->
+<!--   \vspace{-0.17cm} -->
+<!-- \end{large} -->
+<!-- * Using 10,000s of simulated networks, I studied how different forms of social organization contribute to the "small world" phenomenon (aka "six degress of separation") -->
+
+<!-- PERSONAL PROJECTS : 4RD BULLET -->
+<!-- \begin{large} -->
+<!--   \begin{multicols}{2} -->
+<!--     \begin{flushleft}\textit{Online Behavior-optimized Chess Openings Analysis}\end{flushleft} -->
+<!--   \end{multicols} -->
+<!--   \vspace{-0.17cm} -->
+<!-- \end{large} -->
+<!-- * Using data from 7.1 billion chess games (4.9 TB of data) from Lichess.org using {arrow} and {duckdb} for larger-than-memory processing and using game theoretic backwards induction to determine the win-rate optimal chess opening repertoire based on online behavior rather than engine evaluations alone -->
